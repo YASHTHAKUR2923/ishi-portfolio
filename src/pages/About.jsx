@@ -12,11 +12,7 @@ const About = () => {
         viewport={{ once: true }}
         className="max-w-3xl mx-auto"
       >
-        <img
-          src="https://avatars.githubusercontent.com/u/12345678?v=4"
-          alt="Ishi Avatar"
-          className="w-32 h-32 mx-auto rounded-full shadow-lg mb-6"
-        />
+      
         <h2 className="text-4xl font-bold text-indigo-600 dark:text-white mb-4">About Me</h2>
         <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
           I’m a Full Stack Developer passionate about turning ideas into functional, scalable, and beautiful apps.

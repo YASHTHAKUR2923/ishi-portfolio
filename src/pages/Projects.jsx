@@ -44,7 +44,7 @@ const Projects = () => {
               rel="noreferrer"
               className="text-indigo-500 hover:text-indigo-700 font-medium"
             >
-              View Project →
+              {/* View Project → */}
             </a>
           </div>
         ))}
