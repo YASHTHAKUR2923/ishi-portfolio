@@ -22,9 +22,15 @@ const Contact = () => {
         </form>
 
         <div className="mt-6 flex justify-center gap-6 text-2xl text-indigo-600 dark:text-white">
-          <a href="https://github.com/Ishirastogi" target="_blank"><FaGithub /></a>
-          <a href="https://linkedin.com/in/ishi-rastogi-72a6422b1" target="_blank"><FaLinkedin /></a>
-          <a href="https://x.com/RastogiIshi" target="_blank"><FaTwitter /></a>
+          <a href="https://github.com/Ishirastogi" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
+          <a href="https://linkedin.com/in/ishi-rastogi-72a6422b1" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
+          </a>
+          <a href="https://x.com/RastogiIshi" target="_blank" rel="noopener noreferrer">
+            <FaTwitter />
+          </a>
         </div>
       </motion.div>
     </section>
